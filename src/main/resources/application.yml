@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: photography_backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/wildlife_photography?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
